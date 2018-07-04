@@ -44,7 +44,7 @@ console.log(decryptedString);
 
 ## Other Custom Methods
 ```javascript
-encryptPlainTextWithSuppliedIV(plainText: string, key: string, iv: string)y;
+encryptPlainTextWithSuppliedIV(plainText: string, key: string, iv: string);
 decryptCipherTextWithSuppliedIV(cipherText: string, key: string, iv: string);
 generateRandomIV16(): any;
 ```
