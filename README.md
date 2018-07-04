@@ -1,6 +1,6 @@
 [![npm](https://img.shields.io/npm/v/nativescript-crossplatform-aes.svg)](https://www.npmjs.com/package/nativescript-crossplatform-aes)
 [![npm](https://img.shields.io/npm/dt/nativescript-crossplatform-aes.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-crossplatform-aes)
-# nativescript-crossplatformAES
+# nativescript-crossplatform-aes 
  Simple Cross platform 256bit AES encryption / decryption based on [Cross-Platform-AES](https://github.com/skavinvarnan/Cross-Platform-AES)
 
  **Note:** I am not an expert of neigher iOS nor Android. So, please contribute if you think something you can do better :)
