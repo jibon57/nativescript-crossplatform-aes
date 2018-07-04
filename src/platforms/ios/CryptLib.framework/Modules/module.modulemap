@@ -1,0 +1,6 @@
+framework module CryptLib {
+  umbrella header "CryptLib.h"
+
+  export *
+  module * { export * }
+}
