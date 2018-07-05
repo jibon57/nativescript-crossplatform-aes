@@ -7,13 +7,13 @@ export class HelloWorldModel extends Observable {
         super();
 
         let cryptLib = new CrossplatformAES();
-        let plainText = "this is my plain text"
-        let key = "your key"
+        let plainText = "this is my plain text";
+        let key = "your key";
 
         let cipherText = cryptLib.encryptPlainTextWithRandomIV(plainText, key);
         console.log(cipherText);
 
-        let decryptedString = cryptLib.decryptCipherTextWithRandomIV(cipherText, key)
+        let decryptedString = cryptLib.decryptCipherTextWithRandomIV(cipherText, key);
 
         console.log(decryptedString);
 
