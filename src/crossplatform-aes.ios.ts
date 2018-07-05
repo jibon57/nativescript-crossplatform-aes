@@ -1,41 +1,41 @@
 import { Observable } from 'tns-core-modules/data/observable';
-declare var com;
+declare var CryptLib;
 
-export class CrossplatformAES extends Observable {
+export class CrossPlatformAES extends Observable {
 
     public cryptLibClass;
 
     constructor() {
         super();
-        this.cryptLibClass = new com.jibon.crossplatformaes.CryptLib();
+        this.cryptLibClass = CryptLib.alloc();
     }
 
     /**
      * encryptPlainTextWithRandomIV
      */
     public encryptPlainTextWithRandomIV(plainText: string, key: string) {
-        return this.cryptLibClass.encryptPlainTextWithRandomIV(plainText, key);
+        return this.cryptLibClass.encryptPlainTextRandomIVWithPlainTextKey(plainText, key);
     }
 
     /**
      * decryptCipherTextWithRandomIV
      */
     public decryptCipherTextWithRandomIV(cipherText: string, key: string) {
-        return this.cryptLibClass.decryptCipherTextWithRandomIV(cipherText, key);
+        return this.cryptLibClass.decryptCipherTextRandomIVWithCipherTextKey(cipherText, key);
     }
 
     /**
      * encryptPlainTextWithoutIV
      */
     public encryptPlainTextWithSuppliedIV(plainText: string, key: string, iv: string) {
-        return this.cryptLibClass.encryptPlainText(plainText, key, iv);
+        return this.cryptLibClass.encryptKeyIv(plainText, key, iv);
     }
 
     /**
      * decryptCipherTextWithoutIV
      */
     public decryptCipherTextWithSuppliedIV(cipherText: string, key: string, iv: string) {
-        return this.cryptLibClass.decryptCipherText(cipherText, key, iv);
+        return this.cryptLibClass.decryptKeyIv(cipherText, key, iv);
     }
 
     /**
@@ -44,4 +44,6 @@ export class CrossplatformAES extends Observable {
     public generateRandomIV16() {
         return this.cryptLibClass.generateRandomIV16();
     }
+
 }
+

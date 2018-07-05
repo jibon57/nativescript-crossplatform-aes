@@ -30,9 +30,9 @@ tns plugin add nativescript-crossplatform-aes
 ## Simple Usage in NativeScript
 
 ```javascript
-import { CrossplatformAES } from 'nativescript-crossplatform-aes';
+import { CrossPlatformAES } from 'nativescript-crossplatform-aes';
 
-let cryptLib = new CrossplatformAES();
+let cryptLib = new CrossPlatformAES();
 let plainText = "this is my plain text"
 let key = "your key"
 

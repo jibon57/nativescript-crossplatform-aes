@@ -2,7 +2,7 @@
     "name": "nativescript-crossplatform-aes",
     "version": "1.0.1",
     "description": " Simple cross-platform encryption and decryption using AES.",
-    "main": "crossplatformAES",
+    "main": "crossplatform-aes",
     "typings": "index.d.ts",
     "nativescript": {
         "platforms": {

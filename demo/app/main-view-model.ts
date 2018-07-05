@@ -1,12 +1,12 @@
 import { Observable } from 'tns-core-modules/data/observable';
-import { CrossplatformAES } from 'nativescript-crossplatform-aes';
+import { CrossPlatformAES } from 'nativescript-crossplatform-aes';
 
 export class HelloWorldModel extends Observable {
 
     constructor() {
         super();
 
-        let cryptLib = new CrossplatformAES();
+        let cryptLib = new CrossPlatformAES();
         let plainText = "this is my plain text";
         let key = "your key";
 

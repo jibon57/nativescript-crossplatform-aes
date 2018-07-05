@@ -3,9 +3,9 @@
     "id": "org.nativescript.demo"
   },
   "dependencies": {
-    "nativescript-crossplatform-aes": "../src",
     "nativescript-theme-core": "^1.0.4",
     "nativescript-unit-test-runner": "^0.3.4",
+    "nativescript-crossplatform-aes": "../src",
     "tns-core-modules": "^4.1.0"
   },
   "devDependencies": {

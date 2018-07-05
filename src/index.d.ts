@@ -1,5 +1,5 @@
 import { Observable } from 'tns-core-modules/data/observable';
-export declare class CrossplatformAES extends Observable {
+export declare class CrossPlatformAES extends Observable {
     cryptLibClass: any;
     constructor();
     encryptPlainTextWithRandomIV(plainText: string, key: string): any;
