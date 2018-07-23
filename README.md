@@ -47,7 +47,7 @@ console.log(decryptedString);
 ```javascript
 encryptPlainTextWithSuppliedIV(plainText: string, key: string, iv: string);
 decryptCipherTextWithSuppliedIV(cipherText: string, key: string, iv: string);
-generateRandomIV16(): any;
+generateRandomIV16();
 ```
 
 ## NodeJS
