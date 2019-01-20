@@ -1,3 +1,5 @@
+# This plugin is deprecated. Feel free to use the [nativescript-simple-libsodium](https://github.com/jibon57/nativescript-simple-libsodium)
+
 [![npm](https://img.shields.io/npm/v/nativescript-crossplatform-aes.svg)](https://www.npmjs.com/package/nativescript-crossplatform-aes)
 [![npm](https://img.shields.io/npm/dt/nativescript-crossplatform-aes.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-crossplatform-aes)
 [![Build Status](https://travis-ci.org/jibon57/nativescript-crossplatform-aes.svg?branch=master)](https://travis-ci.org/jibon57/nativescript-crossplatform-aes)
